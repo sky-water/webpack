@@ -1,0 +1,13 @@
+//定义scss变量$分为局部变量和全局变量
+$nav-color: #F90;
+nav {
+    $width: 100px;
+    width: $width;
+    color: $nav-color;
+    a{
+        color: red;
+    }
+    &:hover{
+        color: red;
+    }
+}
